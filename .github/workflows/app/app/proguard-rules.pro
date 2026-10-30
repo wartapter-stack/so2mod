@@ -1,0 +1,8 @@
+-repackageclasses 'a'
+-allowaccessmodification
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-keep public class com.so2.mod.MainActivity
+-keep public class com.so2.mod.OverlayService
+-keep public class com.so2.mod.ProxyVpnService
+-keepclassmembers class com.so2.mod.EntityStore$Entity { public *; }
